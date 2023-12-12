@@ -1,4 +1,5 @@
 ---------------------------------Simon Game---------------------------------
+
 This app functions more or less exactly the same as the popular short term
 memory game Simon, the user is presented with a menu screen containing buttons
 to a 'How to play' screen, a 'Single player' screen, a 'leaderboard' screen and 
