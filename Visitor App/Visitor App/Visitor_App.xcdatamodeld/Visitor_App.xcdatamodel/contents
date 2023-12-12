@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="22G120" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bed" representedClassName="Bed" syncable="YES" codeGenerationType="class">
+        <attribute name="bed_id" optional="YES" attributeType="String"/>
+        <attribute name="last_modified" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Favourited" representedClassName="Favourited" syncable="YES" codeGenerationType="class">
+        <attribute name="recnum" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+        <attribute name="accsta" optional="YES" attributeType="String"/>
+        <attribute name="acid" optional="YES" attributeType="String"/>
+        <attribute name="alt" optional="YES" attributeType="String"/>
+        <attribute name="bed" optional="YES" attributeType="String"/>
+        <attribute name="cdat" optional="YES" attributeType="String"/>
+        <attribute name="cid" optional="YES" attributeType="String"/>
+        <attribute name="cnam" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="cultivar_name" optional="YES" attributeType="String"/>
+        <attribute name="donor" optional="YES" attributeType="String"/>
+        <attribute name="family" optional="YES" attributeType="String"/>
+        <attribute name="genus" optional="YES" attributeType="String"/>
+        <attribute name="infraspecific_epithet" optional="YES" attributeType="String"/>
+        <attribute name="iso" optional="YES" attributeType="String"/>
+        <attribute name="last_modified" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="loc" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="memoriam" optional="YES" attributeType="String"/>
+        <attribute name="recnum" optional="YES" attributeType="String"/>
+        <attribute name="redlist" optional="YES" attributeType="String"/>
+        <attribute name="sgu" optional="YES" attributeType="String"/>
+        <attribute name="species" optional="YES" attributeType="String"/>
+        <attribute name="vernacular_name" optional="YES" attributeType="String"/>
+    </entity>
+</model>
